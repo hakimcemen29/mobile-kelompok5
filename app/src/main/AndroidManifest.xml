@@ -26,6 +26,12 @@
             android:exported="false"
             android:label="Register"
             android:theme="@style/Theme.Test" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false"
+            android:label="Home Page"
+            android:theme="@style/Theme.Test" />
+
 
         <!-- DataEntryActivity sebagai launcher -->
         <activity

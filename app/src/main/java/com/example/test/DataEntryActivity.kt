@@ -102,7 +102,10 @@ class DataEntryActivity : ComponentActivity() {
                 Spacer(modifier = Modifier.height(24.dp))
 
                 Button(
-                    onClick = { /* TODO: Aksi login */ },
+                    onClick = {
+                        val intent = Intent(context, HomePage::class.java)
+                        context.startActivity(intent)
+                    },
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(50.dp),
